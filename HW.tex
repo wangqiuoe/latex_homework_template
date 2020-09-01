@@ -1,0 +1,27 @@
+\documentclass[name=FirstName\ LastName, id=studentId, course=courseId, hwname=HomeworkName]{homework}
+
+\usepackage{hw-shortcuts}
+%\usepackage{mathrsfs}
+
+\begin{document}
+    
+\problem{1}
+
+Given any convex $\mathcal{X} \ne \emptyset$, norm $\parallel \cdot \parallel$, and scalar $\epsilon \geq 0$, the following is convex: 
+$$\mathcal{X}_{\epsilon} :=\{ x: \inf_{\bar{x} \in \mathcal{X}} \parallel x - \bar{x} \parallel \leq \epsilon \}$$
+\begin{proof}
+Consider $(x_{1}, x_{2}) \in \mathcal{X}_{\epsilon} \times \mathcal{X}_{\epsilon}$, with the definition of $\mathcal{X}_{\epsilon}$, we know that
+\begin{align}
+\inf_{\bar{x} \in \mathcal{X}}\parallel x_1 - \bar{x} \parallel \leq \epsilon \label{1}\\
+\inf_{\bar{x} \in \mathcal{X}}\parallel x_2 - \bar{x} \parallel \leq \epsilon \label{2}
+\end{align}
+...\\
+and according to the definition of convex set, $\mathcal{X}_\epsilon$ is convex
+
+
+
+\end{proof}
+
+
+
+\end{document}
